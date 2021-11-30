@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Enter employee details</title>
+<link rel="stylesheet" href="style/employee.css">
+</head>
+<body>
+<a href="ViewServlet">View All Records</a><br/>
+ 
+<h1>Add New  Student</h1>
+<form action="newstudent.jsp" method="post">
+<table>
+<tr><td>Name:</td><td><input type="text" name="name"/></td></tr>
+
+<tr><td>marks:</td><td>
+<input type="text" name="marks" /></td></tr>
+
+
+
+<tr><td>Course:</td><td>
+<select name="country">
+<option>CSE</option>
+<option>MECH</option>
+<option>CIVIL</option>
+<option>EEE</option>
+<option>Other</option>
+</select>
+</td></tr>
+<tr><td colspan="2"><input type="submit" value="Add Student"/></td></tr>
+</table>
+</form>
+
+</body>
+</html>
